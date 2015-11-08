@@ -85,6 +85,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --with-cpufreq-lib=cpufreq \
   --enable-polkit \
   --enable-ipv6 \
+  --with-gtk=3.0 \
   --enable-stickynotes \
   --build=$ARCH-slackware-linux
 

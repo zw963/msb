@@ -94,6 +94,7 @@ CPPFLAGS="-I/usr/share/texmf/include" \
   --disable-static \
   --enable-introspection \
   $epub \
+  --with-gtk=3.0 \
   --build=$ARCH-slackware-linux
 
 make

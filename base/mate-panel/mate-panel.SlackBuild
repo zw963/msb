@@ -84,6 +84,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-static \
   --libexecdir=/usr/lib${LIBDIRSUFFIX}/mate-panel \
   --enable-introspection \
+  --with-gtk=3.0 \
   --build=$ARCH-slackware-linux
 
 make

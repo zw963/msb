@@ -85,7 +85,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-static \
   --enable-debug=no \
   --enable-gdict-applet=yes \
-  --with-gtk=2.0 \
+  --with-gtk=3.0 \
   --build=$ARCH-slackware-linux
 
 # This is needed in -current, but should be harmless in -stable as well
