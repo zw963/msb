@@ -54,6 +54,7 @@ for dir in \
   deps/gtk-engines \
   deps/murrine \
   deps/gtksourceview \
+  deps/gtksourceview3 \
   deps/pygtksourceview \
   deps/libgtop \
   deps/libgksu \
